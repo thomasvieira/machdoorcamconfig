@@ -16,7 +16,7 @@ O Software Freecad está licenciado sob a licença [LGPL2+](http://en.wikipedia.
 
 Esse plugin não requer a execução de um instalador. Apenas baixe e descompacte o arquivo [MachDoorCAMConfig.zip](https://github.com/thomasvieira/machdoorcamconfig/blob/main/MachDoorCAMConfig.zip) na pasta MOD do Freecad e reinicie o Freecad. Tipicamente no Windows o caminho para a pasta MOD é ***C:\Users\Username\AppData\Roaming\FreeCAD\Mod*** onde Username é o nome de usuário do Windows.
 
-Também serão necessários o arquivos de macro disponíveis [aqui](https://github.com/thomasvieira/machdoormacros). Esses arquivos devem ser copiados para a pasta Macro do Freecad. Tipicamente no Windows o caminho para a pasta Macro é ***C:/Users/Username/AppData/Roaming/FreeCAD/Macro*** onde Username é o nome de usuário do Windows.
+Também serão necessários o arquivos de macro e de template disponíveis [aqui](https://github.com/thomasvieira/machdoormacros). Esses arquivos devem ser copiados para a pasta Macro do Freecad. Tipicamente no Windows o caminho para a pasta Macro é ***C:/Users/Username/AppData/Roaming/FreeCAD/Macro*** onde Username é o nome de usuário do Windows.
 ## Utilização
 
 Após a criação do corpo que você deseja usinar, execute os seguintes passos:
