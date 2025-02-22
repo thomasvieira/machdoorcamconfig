@@ -18,7 +18,7 @@ Esse plugin não requer a execução de um instalador. Apenas baixe e descompact
 
 Os arquivos ***mach_door_borda_direita_post.py, mach_door_borda_esquerda_post.py e mach_door_face_superior_post.py*** devem ser baixados colocados na pasta ***C:\Program Files\FreeCAD 1.0\Mod\CAM\Path\Post\scripts***
 
-Também serão necessários o arquivos de macro e de template disponíveis [aqui](https://github.com/thomasvieira/machdoormacros). Esses arquivos devem ser copiados para a pasta Macro do Freecad. Tipicamente no Windows o caminho para a pasta Macro é ***C:/Users/Username/AppData/Roaming/FreeCAD/Macro*** onde Username é o nome de usuário do Windows.
+Também serão necessários os arquivos de macro e de template disponíveis [aqui](https://github.com/thomasvieira/machdoormacros). Esses arquivos devem ser copiados para a pasta Macro do Freecad. Tipicamente no Windows o caminho para a pasta Macro é ***C:/Users/Username/AppData/Roaming/FreeCAD/Macro*** onde Username é o nome de usuário do Windows.
 ## Utilização
 
 Após a criação do corpo que você deseja usinar, execute os seguintes passos:
