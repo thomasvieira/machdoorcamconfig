@@ -1,3 +1,4 @@
+https://github.com/thomasvieira/machdoorcamconfig
 
 # Mach Door CAM Config
 
@@ -6,7 +7,10 @@ Addon/Plugin para Freecad para configuração dos parametros utilizados na gera�
 
 ## Pré-requisitos
 
-Freecad 1.0 devidamente instalado. Baixe gratuitamente de [freecad.org/downloads](https://www.freecad.org/downloads.php)
+- Freecad 1.0 devidamente instalado. Baixe gratuitamente de [freecad.org/downloads](https://www.freecad.org/downloads.php)
+- Abrir o Freecad e alterar o sistema de unidades padrão para "Métrico peças pequenas e CNC" em ***Editar\Preferencias\Geral>Sistema de unidades padrão.***
+
+
 ## Licença
 
 O Software Freecad está licenciado sob a licença [LGPL2+](http://en.wikipedia.org/wiki/LGPL). Esse plugin também está licenciado sob a licença LGPL2.
@@ -19,6 +23,9 @@ Esse plugin não requer a execução de um instalador. Apenas baixe e descompact
 Os arquivos ***mach_door_borda_direita_post.py, mach_door_borda_esquerda_post.py e mach_door_face_superior_post.py*** devem ser baixados colocados na pasta ***C:\Program Files\FreeCAD 1.0\Mod\CAM\Path\Post\scripts***
 
 Também serão necessários os arquivos de macro e de template disponíveis [aqui](https://github.com/thomasvieira/machdoormacros). Esses arquivos devem ser copiados para a pasta Macro do Freecad. Tipicamente no Windows o caminho para a pasta Macro é ***C:/Users/Username/AppData/Roaming/FreeCAD/Macro*** onde Username é o nome de usuário do Windows.
+
+Apos copiar os arquivos, abra os arquivos "job_FaceSuperior.json", "job_BordaDireita.json", "job_BordaEsquerda.json" e "Gera_arquivo_de_corte_completo.FCMacro" e substitua o nome de usuario do arquivo pelo nome de usuario da máquina(username do Windows) em todos os lugares que aparecer o nome de usuário.
+
 ## Utilização
 
 Após a criação do corpo que você deseja usinar, execute os seguintes passos:
@@ -42,3 +49,7 @@ Após a criação do corpo que você deseja usinar, execute os seguintes passos:
     17. Execute a macro "Gera_arquivo_de_corte_completo.FCMacro"
 
 Seu arquivo estará disponível na pasta PostProcess
+
+Você pode criar botões para as macros e criar uma barra de ferramentas com todas as macros.
+
+Para criar os botões, vá em ***Ferramentas\Personalizar>Aba Macros*** e para criar a barra de ferramentas, vá em ***Ferramentas\Personalizar>Aba Barras de Ferramentas***.
