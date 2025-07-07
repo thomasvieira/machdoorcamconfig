@@ -1,6 +1,0 @@
-filenames = ['C:/Users/thoma/Documents/Saida/Face Superior.nc', 'C:/Users/thoma/Documents/Saida/Borda Direita.nc', 'C:/Users/thoma/Documents/Saida/Borda Esquerda.nc', 'C:/Users/thoma/Documents/Saida/Topo.nc', 'C:/Users/thoma/Documents/Saida/Base.nc']
-with open('C:/Users/thoma/Documents/Saida/saida.nc', 'w') as outfile:
-    for fname in filenames:
-        with open(fname) as infile:
-            for line in infile:
-                outfile.write(line)
