@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+
+# Macro Begin: C:\Users\thoma\AppData\Roaming\FreeCAD\Macro\teste.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++
+import FreeCAD
+import Path.Main.Gui.Job
+import Path.Main.Job
+
+# Gui.runCommand('Std_DlgMacroRecord',0)
+### Begin command CAM_Job
+Path.Main.Gui.Job.Create(['Body002'], 'C:/Users/thoma/AppData/Roaming/FreeCAD/Macro/job_BordaEsquerda.json')
+### End command CAM_Job
+# Macro End: C:\Users\thoma\AppData\Roaming\FreeCAD\Macro\teste.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++

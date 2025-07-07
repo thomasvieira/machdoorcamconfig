@@ -1,0 +1,4 @@
+import FreeCAD
+#import JobCmd
+
+Gui.activateWorkbench("CAMWorkbench")
