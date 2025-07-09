@@ -1,3 +1,0 @@
-Gui.Selection.clearSelection()
-Gui.Selection.addSelection(App.ActiveDocument.getObject("Job002"))
-Gui.runCommand('CAM_Post',0)
